@@ -19,19 +19,16 @@ button {
 .container {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 0.1px; */
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
 
 .box {
   flex: auto;
-  /* width: 6.25%;
-  height: 6.25%; */
 }
 
-.box:hover {
+/* .box:hover {
   background-color: blue;
   transition-duration: 0.1s;
   transition-timing-function: ease-out 0.3s;
-}
+} */
