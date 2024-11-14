@@ -4,10 +4,16 @@
   padding: 0;
 }
 
+.containerBtn {
+  display: flex;
+  justify-content: center;
+}
+
 button {
   background-color: rgb(238, 255, 0);
-  width: 10px;
-  height: 10px;
+  width: 150px;
+  height: 30px;
+  font-weight: 900;
 }
 
 .container {
@@ -20,8 +26,8 @@ button {
 
 .box {
   flex: auto;
-  width: 6.25%;
-  height: 6.25%;
+  /* width: 6.25%;
+  height: 6.25%; */
 }
 
 .box:hover {
